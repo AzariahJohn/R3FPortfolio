@@ -1,0 +1,92 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: ivory;
+}
+
+body{
+    position: relative;
+}
+
+canvas
+{
+    touch-action: none;
+}
+
+.htmlScreen iframe{
+    width: 1024px;
+    height: 670px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.phoneScreen iframe{
+    border: none;
+    border-radius: 65px;
+    height: 1077px;
+    width: 505px;
+    background-color: black;
+}
+
+/* .notch{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(70, 70, 70);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+} */
+
+.web-btn{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: #EB455F;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s ease-out;
+    font-weight: 700;
+    opacity: 0.3;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.phn-btn{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    background: #EB455F;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s ease-out;
+    font-weight: 700;
+    opacity: 0.5;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    margin-top: 15px;
+    position: absolute;
+}
+
+.web-btn:hover{
+    transform: scale(1.2);
+    background-color: white;
+    transition: 0.5s ease-out;
+}
+
+.btn-container{
+    padding: 20px;
+    border-radius: 5px;
+}
